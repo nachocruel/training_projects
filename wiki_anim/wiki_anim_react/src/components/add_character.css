@@ -1,0 +1,62 @@
+.add-character-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: medium;
+}
+
+
+.add-character-card {
+    padding: 2em;
+    text-align: left;
+    color: #f4eaea;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    width: 300px;
+    background-color: #1a1a1a;
+    align-items: center;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+h2 {
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+.close-button {
+    float: right;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #ff4d4d;
+}
+
+.close-button:hover {
+    color: #c7d31f;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
+    background-color: #2a2a2a;
+    z-index: 1;
+}
+
+form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: medium;
+}

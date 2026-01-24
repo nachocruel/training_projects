@@ -1,0 +1,85 @@
+#root {
+  margin: 0;
+  padding: 2rem;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0.2em;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+  text-align: left;
+  color: #f4eaea;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+  width: 250px;
+  background-color: #1a1a1a;
+  align-items: center;
+}
+
+.card_image {
+  padding: 2em;
+  text-align: left;
+  color: #f4eaea;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+  width: 250px;
+  background-color: #1a1a1a;
+  align-items: center;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 5px solid #ff6f61;
+}
+
+.button_delete {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: small;
+}
+
+.button_update {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+  font-size: small;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 100%;
+  margin-left: 200px;
+  gap: 1px;
+}
+
+.container div {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  margin: 5px;
+}
