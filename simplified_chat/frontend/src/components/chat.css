@@ -1,0 +1,92 @@
+#form {
+    background: rgba(0, 0, 0, 0.15);
+    padding: 0.25rem;
+    position: fixed;
+    bottom: 0;
+    left: 16vw;
+    right: 16vw;
+    display: flex;
+    height: 3rem;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+    border-top: solid 1px #ccc;
+    border-radius: 8px;
+}
+
+.chat-header {
+    background: rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 16vw;
+    right: 16vw;
+    display: flex;
+    height: 4rem;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+    border-bottom: solid 1px #ccc;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chat-messages {
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow-y: auto;
+    border: solid 1px #ccc;
+    border-radius: 8px;
+    position: fixed;
+    top: 4.1rem;
+    left: 16vw;
+    right: 16vw;
+    bottom: 3.2rem;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+
+#input {
+    border: solid 1px #ccc;
+    padding: 0 1rem;
+    flex-grow: 1;
+    border-radius: 2rem;
+    margin: 0.25rem;
+    border-radius: 8px;
+}
+
+#input:focus {
+    outline: none;
+}
+
+#form>button {
+    background: #007bff;
+    border: none;
+    padding: 0 1rem;
+    margin: 0.25rem;
+    border-radius: 3px;
+    outline: none;
+    color: #fff;
+}
+
+#messages {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#messages>li {
+    padding: 0.5rem 1rem;
+}
+
+
+.card {
+    background: rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+    border: solid 1px #ccc;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    color: black;
+    background-color: #ccc;
+    width: fit-content;
+}

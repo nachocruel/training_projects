@@ -1,0 +1,51 @@
+.load-room {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 70vw;
+    bottom: 0;
+    box-sizing: border-box;
+    border: solid 1px #ccc;
+    border-radius: 8px;
+}
+
+.load-room-header {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    border-bottom: solid 10px #ccc;
+    width: 100%;
+    padding-bottom: 0.5rem;
+    background-color: #646cff;
+}
+
+ul {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+li {
+    padding: 0.5rem;
+    border-bottom: solid 1px #ccc;
+    cursor: pointer;
+    color: #fff;
+}
+
+li:hover {
+    background-color: #646cff;
+    color: #c27b2e;
+}
+
+.selected {
+    background-color: #646cff;
+    color: #c27b2e;
+}

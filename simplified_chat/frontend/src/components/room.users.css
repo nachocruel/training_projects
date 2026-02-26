@@ -1,0 +1,51 @@
+.room-users {
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow-y: auto;
+    border: solid 1px #ccc;
+    border-radius: 8px;
+    position: fixed;
+    top: 0;
+    left: 85vw;
+    right: 0;
+    bottom: 0;
+    background: rgba(100, 98, 98, 0.15);
+}
+
+.room-users-header {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    border-bottom: solid 10px #ccc;
+    width: 100%;
+    padding-bottom: 0.5rem;
+    background-color: #646cff;
+}
+
+.room-users-list {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+li {
+    padding: 0.5rem;
+    border-bottom: solid 1px #ccc;
+    cursor: pointer;
+    color: #fff;
+}
+
+li:hover {
+    background-color: #646cff;
+    color: #c27b2e;
+}
